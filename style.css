@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .cabecalho {
     background-color: #ba5604;
     color: rgb(255, 255, 255);
@@ -16,8 +20,29 @@
     width: 30%;
 }
 
+
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 35px;
     font-size: 30px;
+}
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient (to right,#b95018,#e9bd0d);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
 }
